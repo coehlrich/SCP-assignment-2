@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/SCP-react-2/static/css/main.073c9b0a.css",
-    "main.js": "/SCP-react-2/static/js/main.36ff8313.js",
-    "static/js/787.42481e0f.chunk.js": "/SCP-react-2/static/js/787.42481e0f.chunk.js",
-    "static/media/logo.svg": "/SCP-react-2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/SCP-react-2/static/css/main.0bbba82f.css",
+    "main.js": "/SCP-react-2/static/js/main.43053ad7.js",
     "index.html": "/SCP-react-2/index.html",
-    "main.073c9b0a.css.map": "/SCP-react-2/static/css/main.073c9b0a.css.map",
-    "main.36ff8313.js.map": "/SCP-react-2/static/js/main.36ff8313.js.map",
-    "787.42481e0f.chunk.js.map": "/SCP-react-2/static/js/787.42481e0f.chunk.js.map"
+    "main.0bbba82f.css.map": "/SCP-react-2/static/css/main.0bbba82f.css.map",
+    "main.43053ad7.js.map": "/SCP-react-2/static/js/main.43053ad7.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.36ff8313.js"
+    "static/css/main.0bbba82f.css",
+    "static/js/main.43053ad7.js"
   ]
 }
