@@ -63,8 +63,14 @@ function setItems(items, position) {
 
 function MapItems(parameters) {
   const items = parameters.items;
+  if (items.length === 0) {
+    return (
+      <NavDropdown.Item disabled>
+        Loading...
+      </NavDropdown.Item>
+    )
+  }
   const outerName = parameters.name;
-  console.log(items);
   if (typeof items == "string") {
     return(
       <LinkContainer to={"items/" + items}>
