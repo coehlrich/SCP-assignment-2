@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Item from "./Items";
 import getItems from "./getItems";
 import { useEffect, useState } from "react";
+import Home from "./Home";
 
 function App() {
   const [itemsState, setState] = useState([]);
@@ -43,6 +44,7 @@ function App() {
       </Navbar>
       <Routes>
         <Route path="/items/:id" element={<Item />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Container>
   );
