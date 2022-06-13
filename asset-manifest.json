@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SCP-react-2/static/css/main.0bbba82f.css",
-    "main.js": "/SCP-react-2/static/js/main.b6eea1ab.js",
+    "main.js": "/SCP-react-2/static/js/main.3bdb1f5b.js",
     "index.html": "/SCP-react-2/index.html",
     "main.0bbba82f.css.map": "/SCP-react-2/static/css/main.0bbba82f.css.map",
-    "main.b6eea1ab.js.map": "/SCP-react-2/static/js/main.b6eea1ab.js.map"
+    "main.3bdb1f5b.js.map": "/SCP-react-2/static/js/main.3bdb1f5b.js.map"
   },
   "entrypoints": [
     "static/css/main.0bbba82f.css",
-    "static/js/main.b6eea1ab.js"
+    "static/js/main.3bdb1f5b.js"
   ]
 }
