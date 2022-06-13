@@ -23,6 +23,7 @@ function Item() {
     if (found == null) {
         return(
             <div>
+                Loading...
             </div>
         )
     }
@@ -35,16 +36,38 @@ function Item() {
                 <Accordion.Item eventKey="containment">
                     <Accordion.Header>Special Containment Procedures</Accordion.Header>
                     <Accordion.Body>
-                        {found.containment}
+                        <Format content={found.containment}/>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="description">
                     <Accordion.Header>Description</Accordion.Header>
                     <Accordion.Body>
-                        {found.description}
+                        <Format content={found.description}/>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+        </div>
+    )
+}
+
+function Format(params) {
+    console.log(params);
+    var paragraphs = params.content.split("\\n\\n");
+    var parts = [];
+    
+    for (var i = 0; i < paragraphs.length; i++) {
+        parts.push({content: paragraphs[i], key: i})
+    }
+
+    return(
+        <div>
+            {
+                parts.map(value => 
+                    <p key={value.key}>
+                        {value.content}
+                    </p>
+                )
+            }
         </div>
     )
 }
